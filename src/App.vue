@@ -24,7 +24,7 @@ import FilmCard from './components/FilmCard.vue'
 import BookingForm from './components/BookingForm.vue'
 
 const films = ref([
-  { id: 1, title: 'Avengers', poster: 'https://image.tmdb.org/t/p/w200/q719jXXEzOoYaps6babgKnONONX.jpg', deskripsi: 'Film superhero Marvel.' },
+  { id: 1, title: 'Your Name', poster: 'https://image.tmdb.org/t/p/w200/q719jXXEzOoYaps6babgKnONONX.jpg', deskripsi: 'Anime Peak Buatan Studio Ghibli.' },
   { id: 2, title: 'Inception', poster: 'https://image.tmdb.org/t/p/w200/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg', deskripsi: 'Film sci-fi mind-blowing.' },
 ])
 
