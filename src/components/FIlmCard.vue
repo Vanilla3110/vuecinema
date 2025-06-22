@@ -1,12 +1,11 @@
+<!-- src/components/FilmCard.vue -->
 <template>
-  <div class="card">
-    <img :src="film.poster" :alt="film.title" width="150" />
+  <div class="film-card">
     <h2>{{ film.title }}</h2>
-    <p>{{ film.deskripsi }}</p>
-    <button @click="$emit('pesanTiket', film)">Pesan Tiket</button>
+    <button @click="$emit('pesan')">Pesan Tiket</button>
   </div>
 </template>
 
 <script setup>
-defineProps(['film'])
+const props = defineProps(['film'])
 </script>
